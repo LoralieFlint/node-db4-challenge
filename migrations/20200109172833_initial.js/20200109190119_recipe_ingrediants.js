@@ -7,7 +7,14 @@ exports.up = async function(knex) {
       .notNullable()
       // finds item in recepie table and returns the id
       .references("id")
-      .inTable("recepies");
+      .inTable("recepies")
+      table
+      .integer("ingrediants_id")
+      .unsigned()
+      .notNullable()
+      // finds item in recepie table and returns the id
+      .references("id")
+      .inTable("ingrediants");
     table.float("qty", 25).notNullable();
     table.string("measurements", 255).notNullable();
   });
