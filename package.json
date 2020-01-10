@@ -1,0 +1,29 @@
+{
+  "name": "db4-challenge",
+  "version": "1.0.0",
+  "description": "data modeling project",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Loralie",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.4",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoralieFlint/node-db4-challenge.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoralieFlint/node-db4-challenge/issues"
+  },
+  "homepage": "https://github.com/LoralieFlint/node-db4-challenge#readme"
+}
